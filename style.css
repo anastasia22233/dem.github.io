@@ -19,3 +19,16 @@ blockquote.q {
 	font-style: italic;
 }
 p.quote { font-family: “Pudelinka”, cursive;}
+body {
+  background-color: #f0f8ff; /* Светло-голубой фон */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.highlight {
+  color: #2e8b57; /* Тёмно-зелёный */
+  font-size: 18px;
+  background-color: #fffacd; /* Лимонный фон */
+  padding: 10px;
+  border-radius: 5px;
+}

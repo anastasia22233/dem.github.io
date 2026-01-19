@@ -1,88 +1,59 @@
-@font-face {
-	font-family: “Pudelinka”;
-	src: url(”Fonts/pudelinka.ttf” ) format('truetype’);
-	font-weight: normal;
-	font-style: normal;
-}
-<body>{
-	background-color: #d2b48c;
-	margin-left: 20%;
-	margin-right: 20%;
-	border: 2px dotted black;
-	padding: 10px 10px 10px 10px;
-	font-family: sans serif;
-    }
-<body>
-blockquote.q {
-	color: #D4AF37;
-	border-left: 4px solid #8B0000;
-	font-style: italic;
-}
-p.quote { font-family: “Pudelinka”, cursive;}
-body {
-  background-color: #f0f8ff; /* Светло-голубой фон */
-  font-family: Arial, sans-serif;
-  padding: 20px;
-}
-
-.highlight {
-  color: #2e8b57; /* Тёмно-зелёный */
-  font-size: 18px;
-  background-color: #fffacd; /* Лимонный фон */
-  padding: 10px;
-  border-radius: 5px;
-}
-/* Фон страницы */
-body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-    margin: 0;
-    padding: 20px;
-}
-
-/* Заголовок */
-h1 {
-    color: #FFD700; /* золотой */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-}
-
-/* Параграфы */
-p {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    border-radius: 10px;
-    border-left: 5px solid #FFD700;
-}
-
-/* Кнопка */
-.button {
-    background: linear-gradient(to right, #FF416C, #FF4B2B);
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.button:hover {
-    background: linear-gradient(to right, #FF4B2B, #FF416C);
-    transform: scale(1.05);
-}
-body {
-    background: #ff6b6b;
-    color: #fff;
-    font-family: 'Comic Sans MS', cursive;
-}
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Мой красочный сайт</title>
+  <style>
+    /* Подключаем шрифт */
+    @font-face {
+      font-family: "Pudelinka";
+      src: url("Fonts/pudelinka.ttf") format("truetype");
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Стили страницы — оставьте ТОЛЬКО ОДИН блок body */
+    body {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-family: Arial, sans-serif;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #FFD700;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    p {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 15px;
+      border-radius: 10px;
+      border-left: 5px solid #FFD700;
+    }
+
+    /* Пример использования кастомного шрифта */
+    .pudelinka {
+      font-family: "Pudelinka", cursive;
+      font-size: 24px;
+    }
+
+    /* Цитата */
+    blockquote.q {
+      color: #D4AF37;
+      border-left: 4px solid #8B0000;
+      font-style: italic;
+      margin: 20px 0;
+      padding-left: 15px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Мой красочный сайт</h1>
-    <p>Привет, мир!</p>
+  <h1>Мой красочный сайт</h1>
+  <p>Привет, мир!</p>
+  <p class="pudelinka">Текст шрифтом Pudelinka</p>
+  <blockquote class="q">Это цитата в стиле q</blockquote>
 </body>
 </html>

@@ -71,3 +71,8 @@ p {
     background: linear-gradient(to right, #FF4B2B, #FF416C);
     transform: scale(1.05);
 }
+body {
+    background: #ff6b6b;
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+}

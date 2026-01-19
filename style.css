@@ -76,3 +76,13 @@ body {
     color: #fff;
     font-family: 'Comic Sans MS', cursive;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Мой красочный сайт</h1>
+    <p>Привет, мир!</p>
+</body>
+</html>
